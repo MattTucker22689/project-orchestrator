@@ -1,0 +1,60 @@
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.env
+secrets/
+credentials/
+
+# API keys and tokens
+*.key
+*.pem
+api_keys.json
+tokens.json
+
+# n8n exports with credentials
+*credentials*.json
+n8n-export-with-credentials*.json
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Local configuration
+local.config.js
+local.settings.json
+notion_config.json
